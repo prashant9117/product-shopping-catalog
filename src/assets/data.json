@@ -1,0 +1,33 @@
+{
+    "data": [{
+            "id": 1,
+            "name": "Apple",
+            "price": 100
+            }, 
+            {
+                "id": 2,
+                "name": "Orange",
+                "price": 150
+            },
+            {
+                "id": 3,
+                "name": "Mango",
+                "price": 50
+            },
+            {
+                "id": 4,
+                "name": "Pineapple",
+                "price": 200
+            },
+            {
+                "id": 5,
+                "name": "Banana",
+                "price": 250
+            },
+            {
+                "id": 6,
+                "name": "Plum",
+                "price": 300
+            } 
+    ]
+}

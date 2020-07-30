@@ -1,0 +1,21 @@
+<div class="card filters">
+
+  <div class="card-header">
+    <strong>Price Filters</strong>
+  </div>
+  <div class="card-body">
+    <form [formGroup]="rangeForm" (submit)="filterByPrice()">
+      <div class="form-group">
+        <label for="fromstartRange">From</label>
+        <input type="number" id="fromstartRange" formControlName="startRange" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="to">To</label>
+        <input type="number" id="toendRange" formControlName="endRange" class="form-control">
+      </div>
+
+      <button class="btn btn-link addToCartBtn" [disabled]="!rangeForm.valid">Apply</button>
+    </form>
+  </div>
+</div>
